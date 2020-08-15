@@ -37,10 +37,10 @@ fn judge(player_choice:String,opponent_choice:String)->String{
     let (own_beats, other_beats) = (beats(&player_choice), beats(&opponent_choice));
 
     match (&*own_beats,  &*other_beats) {
-        _ if own_beats == opponent_choice => return "勝ち".to_string(),
-        _ if other_beats == player_choice => return "負け".to_string(),
-        _                            => return "引き分け".to_string()
-    };
+        _ if own_beats == opponent_choice =>  "勝ち".to_string(),
+        _ if other_beats == player_choice =>  "負け".to_string(),
+        _                            => "引き分け".to_string()
+    }
   
 }
 fn get_opponent_choice()->String{
