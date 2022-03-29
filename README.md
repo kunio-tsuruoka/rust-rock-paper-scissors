@@ -1,0 +1,5 @@
+# rust-rock-paper-scissors
+basic rust syntax practice
+
+昔々あるところにおじいさんとお婆さんがいました
+おじいさんは駆け出しエンジニアにおすすめのrustって言語があるといい僕はそれを鵜呑みにしてジャンケンゲームを作った
